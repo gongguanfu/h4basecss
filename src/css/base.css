@@ -32,17 +32,13 @@ a:hover { text-decoration:underline; }
 /*圆角*/
 .g_radius { border-radius:2px; }
 /*小点儿*/
-.g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; }
+.g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; background-color: #000; }
 /*零内容*/
 .zero_tips{text-align:center;}
 /*一行内自动截字*/
 .g_autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 /*英文单词强制换行*/
 .g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
-/*面包屑*/
-.g_bread_nav .dist_sym{margin:0 7px;}
-.g_bread_nav .S_spetxt{margin:0 3px;}
-
 /*鼠标手型*/
 .g_cursor{ cursor:pointer;}
 
