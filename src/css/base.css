@@ -1,8 +1,8 @@
 @charset "utf-8";
 /**WEB版公用样式整理**/
-/*
-*_表示全局公用，也可用其他的替换
-*/
+/**
+    *全局global g_表示全局公用
+**/
 /*默认链接*/
 a { color:#0a8cd2; text-decoration:none; }
 a:hover { text-decoration:underline; }
@@ -13,37 +13,37 @@ a:hover { text-decoration:underline; }
 .clearfix{ *zoom:1;}
 /*中文符合显示*/
 .CH { font-family:"SimSun" }
-.W_Yahei{font-family:"Microsoft Yahei"}
+.g_Yahei{font-family:"Microsoft Yahei"}
 /*Tohama*/
-.W_Tahoma{font-family:Tahoma}
+.g_Tahoma{font-family:Tahoma}
 /*小字号*/
-.W_fs { font-size:10px;-webkit-transform:scale(0.875)}
+.g_fs { font-size:10px;-webkit-transform:scale(0.875)}
 /*特殊文字*/
-.W_fb { font-weight:700; }
-.W_f14 { font-size:14px }
-.W_f16 { font-size:16px }
-.W_f18 { font-size:18px }
-.W_f20 { font-size:20px }
+.g_fb { font-weight:700; }
+.g_f14 { font-size:14px }
+.g_f16 { font-size:16px }
+.g_f18 { font-size:18px }
+.g_f20 { font-size:20px }
 /*版式类样式*/
-.W_fl{float:left; _display:inline}
-.W_fr{float:right; _display:inline}
-.W_tc{text-align:center;}
-.W_tr{text-align:right;}
+.g_fl{float:left; _display:inline}
+.g_fr{float:right; _display:inline}
+.g_tc{text-align:center;}
+.g_tr{text-align:right;}
 /*圆角*/
-.W_radius { border-radius:2px; }
+.g_radius { border-radius:2px; }
 /*小点儿*/
-.W_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; }
+.g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; }
 /*零内容*/
 .zero_tips{text-align:center;}
 /*一行内自动截字*/
-.W_autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.g_autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 /*英文单词强制换行*/
-.W_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
+.g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
 /*面包屑*/
-.W_bread_nav .dist_sym{margin:0 7px;}
-.W_bread_nav .S_spetxt{margin:0 3px;}
+.g_bread_nav .dist_sym{margin:0 7px;}
+.g_bread_nav .S_spetxt{margin:0 3px;}
 
 /*鼠标手型*/
-.W_cursor{ cursor:pointer;}
+.g_cursor{ cursor:pointer;}
 
 
