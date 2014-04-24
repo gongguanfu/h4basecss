@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+/**
+    *元件unit u_表示元件
+**/
+/*常见按钮*/
+/*-----内高光边缘-----*/
+.u_btn_a span,
+.u_btn_b span,
+.u_btn_c span,
+.u_btn_dis span{padding:0 9px 0 10px;white-space:nowrap;display:inline-block; border-style:solid; border-width:1px; border-radius:2px; height:18px;line-height:18px; *line-height:19px; *overflow:hidden;}
+.u_btn_a:hover,
+.u_btn_b:hover,
+.u_btn_c:hover,
+.u_btn_dis:hover{text-decoration:none;}
+/*-----u_btn_b 灰变黄-----*/
+.u_btn_b { display:inline-block; border-width:1px; border-style:solid; border-radius:2px; overflow:hidden;vertical-align:middle; cursor:pointer;border-color:#d9d9d9;background-color:#f2f2f2;}
+.u_btn_b span{ border-color:#fff;color:#333;}
+/*-----u_btn_a 黄变黄-----*/
+.u_btn_a,
+.u_btn_b:hover {border-width:1px; border-style:solid; border-color:#ff9b01; background-color:#ffa00a; color:#fff; border-radius:2px; display:inline-block;overflow:hidden;vertical-align:middle; cursor:pointer;}
+.u_btn_a span {border-color:#ffb33b;color:#fff;}
+.u_btn_a:hover span,
+.u_btn_b:hover span{ border-width:1px; border-style:solid; border-color:#ffce82; color:#fff;}
+.u_btn_a:hover,
+.u_btn_b:hover,
+.u_btn_a:hover span,
+.u_btn_b:hover span{ text-decoration:none;background: rgb(255,184,71);
+    background: -moz-linear-gradient(top, rgba(255,184,71,1) 0%, rgba(255,162,16,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,184,71,1)), color-stop(100%,rgba(255,162,16,1)));/*Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%); /* IE10+ */
+    background: linear-gradient(top bottom, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%); /* W3C */}
+/*-----u_btn_c 灰变灰-----*/
+.u_btn_c { display:inline-block; border-width:1px; border-style:solid; border-radius:2px; vertical-align:middle; cursor:pointer;border-color:#d9d9d9;background-color:#f2f2f2;}
+.u_btn_c span{ border-color:#fff;color:#333;}
+.u_btn_c:hover { text-decoration:none;background-color:#fafafa;}
+/*不可用状态*/
+.u_btn_dis,
+.u_btn_dis:hover {display:inline-block; border-width:1px; border-style:solid; border-radius:2px; overflow:hidden; vertical-align:middle; cursor:pointer; border-color:#d9d9d9;background:#f2f2f2;}
+.u_btn_dis span,
+.u_btn_dis:hover span{color:#ccc;cursor:default;text-decoration:none;white-space:nowrap;display:inline-block; border-style:solid; border-width:1px; border-radius:2px;*overflow:hidden; border-color:#fff;background:#f2f2f2;color:#ccc;cursor:default;text-decoration:none;}
+
+/*大按钮 30高*/
+.u_btn_30 span{ height:26px;line-height:25px; *line-height:27px; *overflow:hidden; padding:0 15px; }

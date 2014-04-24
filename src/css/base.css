@@ -8,7 +8,7 @@ a { color:#0a8cd2; text-decoration:none; }
 a:hover { text-decoration:underline; }
 /*清浮动*/
 .clearfix:before,
-.clearfix:after{ display:table;content:" ";}
+.clearfix:after{ display:table;content:" "; line-height: 0;}
 .clearfix:after{ clear:both;}
 .clearfix{ *zoom:1;}
 /*中文符合显示*/
@@ -41,5 +41,6 @@ a:hover { text-decoration:underline; }
 .g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
 /*鼠标手型*/
 .g_cursor{ cursor:pointer;}
+
 
 
