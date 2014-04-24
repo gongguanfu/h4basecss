@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-
 /**
     *元件unit u_表示元件
 **/
@@ -37,11 +35,17 @@
 .u_btn_c { display:inline-block; border-width:1px; border-style:solid; border-radius:2px; vertical-align:middle; cursor:pointer;border-color:#d9d9d9;background-color:#f2f2f2;}
 .u_btn_c span{ border-color:#fff;color:#333;}
 .u_btn_c:hover { text-decoration:none;background-color:#fafafa;}
-/*不可用状态*/
+/*-----不可用状态-----*/
 .u_btn_dis,
 .u_btn_dis:hover {display:inline-block; border-width:1px; border-style:solid; border-radius:2px; overflow:hidden; vertical-align:middle; cursor:pointer; border-color:#d9d9d9;background:#f2f2f2;}
 .u_btn_dis span,
 .u_btn_dis:hover span{color:#ccc;cursor:default;text-decoration:none;white-space:nowrap;display:inline-block; border-style:solid; border-width:1px; border-radius:2px;*overflow:hidden; border-color:#fff;background:#f2f2f2;color:#ccc;cursor:default;text-decoration:none;}
-
-/*大按钮 30高*/
+/*-----大按钮 30高-----*/
 .u_btn_30 span{ height:26px;line-height:25px; *line-height:27px; *overflow:hidden; padding:0 15px; }
+/*上传按钮*/
+.u_upload{display:inline-block;*display:inline;*zoom:1;position:relative;overflow:hidden;border: 1px solid #d9d9d9;border-radius: 2px;
+    cursor: pointer;background-color: #f2f2f2;}
+.u_upload button{height:28px;padding:0 15px;border:1px solid #fff;overflow:visible;font-size:14px;color:#333;background-color: #f2f2f2;}
+.u_upload input{position:absolute;top:0;right:-1px;font-size:100px;cursor:pointer;opacity:0;filter:alpha(opacity=0);}
+.u_upload:hover button{ background-color:#fafafa;}
+a.u_upload,a.u_upload:hover{text-decoration:none;}
