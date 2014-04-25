@@ -49,7 +49,15 @@
 .u_upload input{position:absolute;top:0;right:-1px;font-size:100px;cursor:pointer;opacity:0;filter:alpha(opacity=0);}
 .u_upload:hover button{ background-color:#fafafa;}
 a.u_upload,a.u_upload:hover{text-decoration:none;}
+/*单选复选*/
+.u_chk{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px; vertical-align:-2px; _vertical-align:-3px;  }
+.u_rad{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px;  vertical-align:-2px; _vertical-align:-3px; }
+/* input testarea 色框*/
+.u_input{ border:1px solid #ccc; border-radius:2px; height:28px;padding:0 0 0 2px; vertical-align: middle;color:#808080; -webkit-box-shadow:0px 1px 1px 0px #eaeaea inset; -moz-box-shadow:0px 1px 1px 0px #eaeaea inset;box-shadow:0px 1px 1px 0px #eaeaea inset; height:20px\9;  padding:8px 0 0 2px\9;}
+textarea.u_input{ overflow-y:auto; overflow-x:hidden; line-height:18px; height:23px;padding:5px 0 0 2px;}
+:root .u_input{height:26px\0;padding:2px 0 0 2px\0;}
+:root textarea.u_input{height:23px\0;padding:5px 0 0 2px\0;}
+.u_input_focus,
+.u_input:focus{border-color:#FFB941!important;-webkit-box-shadow:1px 1px 1px 0px #ddd inset; -moz-box-shadow:1px 1px 1px 0px #ddd inset;box-shadow:1px 1px 1px 0px #ddd inset;color:#333;}
 
-.u_chk{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px; }
-.u_rad{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px; }
 
