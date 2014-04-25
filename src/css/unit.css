@@ -49,3 +49,7 @@
 .u_upload input{position:absolute;top:0;right:-1px;font-size:100px;cursor:pointer;opacity:0;filter:alpha(opacity=0);}
 .u_upload:hover button{ background-color:#fafafa;}
 a.u_upload,a.u_upload:hover{text-decoration:none;}
+
+.u_chk{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px; }
+.u_rad{position:relative;*top:1px;margin:0 4px 0 0;*margin:0 0 0 -4px; }
+
