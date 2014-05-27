@@ -1,0 +1,9 @@
+@charset "utf-8";
+/**
+    *技巧
+**/
+
+/*滤镜*/
+.s_filter { width: 120px; height: 30px;
+    background: url(../img/logo.png) no-repeat; _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../img/logo.png');}
