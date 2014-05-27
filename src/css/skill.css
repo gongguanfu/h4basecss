@@ -3,7 +3,11 @@
     *技巧
 **/
 
-/*滤镜*/
+/*图片滤镜*/
 .s_filter { width: 120px; height: 30px;
     background: url(../img/logo.png) no-repeat; _background: none;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../img/logo.png');}
+
+/*纯色透明*/
+.s_opacity { width: 120px; height: 30px;
+    background: #000; opacity: .3; filter: alpha(opacity=30);}

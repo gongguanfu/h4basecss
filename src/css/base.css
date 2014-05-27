@@ -34,9 +34,9 @@ a:hover { text-decoration:underline; }
 /*小点儿*/
 .g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; background-color: #000; }
 /*零内容*/
-.zero_tips{text-align:center;}
+.g_zero_tips{text-align:center;}
 /*一行内自动截字*/
-.g_autocut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.g_auto_cut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 /*英文单词强制换行*/
 .g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
 /*鼠标手型*/
