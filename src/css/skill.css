@@ -1,13 +1,38 @@
 @charset "utf-8";
 /**
-    *技巧
+    *技巧skill s_表示技巧
 **/
-
 /*图片滤镜*/
 .s_filter { width: 120px; height: 30px;
     background: url(../img/logo.png) no-repeat; _background: none;
     _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='../img/logo.png');}
-
 /*纯色透明*/
 .s_opacity { width: 120px; height: 30px;
     background: #000; opacity: .3; filter: alpha(opacity=30);}
+/*文字跟随*/
+.s_txt_follow { }
+.s_txt_follow .txt{ float: left; margin-right: 110px;}
+.s_txt_follow .time{ float: left; _display: inline; margin-left: -100px;}
+/*图片垂直居中*/
+.s_img_vertical{ display: inline-block; width: 200px; height:150px; border: 1px solid #ddd; text-align: center; white-space: nowrap; font-size: 0;}
+.s_img_vertical .zero_vertical{ display: inline-block; width: 0; height: 100%; vertical-align: middle;}
+.s_img_vertical img{ max-width: 100%; border: none; vertical-align: middle; }
+/*border三角形*/
+.s_triangle_top{ display: inline-block; width:0; height:0; border-width:10px; border-style:dashed dashed solid dashed; 
+    border-color:transparent transparent #ddd transparent;}
+.s_triangle_right{ display: inline-block; width:0; height:0; border-width:10px; border-style:dashed dashed dashed solid; 
+    border-color:transparent transparent transparent #ddd;}
+.s_triangle_bottom{ display: inline-block; width:0; height:0; border-width:10px; border-style:solid dashed dashed dashed; 
+    border-color:#ddd transparent transparent transparent;}
+.s_triangle_left{ display: inline-block; width:0; height:0; border-width:10px; border-style:dashed solid dashed dashed; 
+    border-color:transparent #ddd transparent transparent;}
+/*自定义滚动条*/
+.s_scroll_wrap{ width: 310px; padding:5px; background:#ddd;}
+.s_scroll_wrap .scroll_cont{ float: left; width: 300px; height: 100px; overflow: hidden;}
+.s_scroll_wrap .scroll_cont .txt{ line-height: 20px;}
+.s_scroll_wrap .scroll_bar{ position: relative; float: left; width: 7px; height: 100px;  margin-left: 3px;}
+.s_scroll_wrap .scroll_bar .bar{ position: absolute; left: 0; display: inline-block; width: 7px; 
+    background: url(../img/scroll_bar.png) no-repeat 9999px 9999px; _background: url(../img/scroll_bar.gif) no-repeat 9999px 9999px;}
+.s_scroll_wrap .scroll_bar .bar_top{ top: 0; height: 3px;  background-position: 0 0;}
+.s_scroll_wrap .scroll_bar .bar_center{ top: 4px; background-position: -14px 0; background-repeat: repeat-y;  cursor: pointer;}
+.s_scroll_wrap .scroll_bar .bar_bottom{bottom: 0; height: 3px;  background-position: 0 -7px;}

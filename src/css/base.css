@@ -36,7 +36,7 @@ a:hover { text-decoration:underline; }
 /*零内容*/
 .g_zero_tips{text-align:center;}
 /*一行内自动截字*/
-.g_auto_cut{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.g_auto_cut{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 /*英文单词强制换行*/
 .g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
 /*鼠标手型*/
