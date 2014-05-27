@@ -1,0 +1,8 @@
+@charset "utf-8";
+/**demo临时样式**/
+.z-con{ width: 980px; margin: 30px auto;}
+.z-tit{ height: 30px; margin-bottom:10px; text-indent: 10px; line-height: 30px; font-weight: 700; color: #333;background: #ddd;}
+.z-bd{ margin-bottom:20px; padding: 10px; border: 1px solid #ddd;}
+.z-p { height: 150px;padding: 10px;color: #333;background: #ccc;}
+
+

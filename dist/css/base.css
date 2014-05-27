@@ -1,0 +1,46 @@
+@charset "utf-8";
+/**WEB版公用样式整理**/
+/**
+    *全局global g_表示全局公用
+**/
+/*默认链接*/
+a { color:#0a8cd2; text-decoration:none; }
+a:hover { text-decoration:underline; }
+/*清浮动*/
+.clearfix:before,
+.clearfix:after{ display:table;content:" "; line-height: 0;}
+.clearfix:after{ clear:both;}
+.clearfix{ *zoom:1;}
+/*中文符合显示*/
+.CH { font-family:"SimSun" }
+.g_Yahei{font-family:"Microsoft Yahei"}
+/*Tohama*/
+.g_Tahoma{font-family:Tahoma}
+/*小字号*/
+.g_fs { font-size:10px;-webkit-transform:scale(0.875)}
+/*特殊文字*/
+.g_fb { font-weight:700; }
+.g_f14 { font-size:14px }
+.g_f16 { font-size:16px }
+.g_f18 { font-size:18px }
+.g_f20 { font-size:20px }
+/*版式类样式*/
+.g_fl{float:left; _display:inline}
+.g_fr{float:right; _display:inline}
+.g_tc{text-align:center;}
+.g_tr{text-align:right;}
+/*圆角*/
+.g_radius { border-radius:2px; }
+/*小点儿*/
+.g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; background-color: #000; }
+/*零内容*/
+.g_zero_tips{text-align:center;}
+/*一行内自动截字*/
+.g_auto_cut{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+/*英文单词强制换行*/
+.g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
+/*鼠标手型*/
+.g_cursor{ cursor:pointer;}
+
+
+
