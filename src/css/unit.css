@@ -59,6 +59,3 @@ textarea.u_input{ overflow-y:auto; overflow-x:hidden; line-height:18px; height:2
 :root textarea.u_input{height:23px\0;padding:5px 0 0 2px\0;}
 .u_input_focus,
 .u_input:focus{border-color:#FFB941!important;-webkit-box-shadow:1px 1px 1px 0px #ddd inset; -moz-box-shadow:1px 1px 1px 0px #ddd inset;box-shadow:1px 1px 1px 0px #ddd inset;color:#333;}
-/* 标题嵌入分隔线*/
-.u_tit_line{display: block; padding: 0 0 0 20px; border-top:1px solid #d9d9d9;}
-.u_tit_line legend { padding: 0 5px;font-weight: bold;}

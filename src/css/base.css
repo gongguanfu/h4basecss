@@ -35,12 +35,15 @@ a:hover { text-decoration:underline; }
 .g_dot { width:2px; height:2px; line-height:2px; display:inline-block; overflow:hidden; background-color: #000; }
 /*零内容*/
 .g_zero_tips{text-align:center;}
+/*鼠标手型*/
+.g_cursor{ cursor:pointer;}
 /*一行内自动截字*/
 .g_auto_cut{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 /*英文单词强制换行*/
 .g_txt_break {word-wrap: break-word; white-space: normal; word-break: break-all;}
-/*鼠标手型*/
-.g_cursor{ cursor:pointer;}
+/* 标题嵌入分隔线*/
+.g_tit_line{display: block; padding: 0 0 0 20px; border-top:1px solid #d9d9d9;}
+.g_tit_line legend { padding: 0 5px;font-weight: bold;}
 
 
 
